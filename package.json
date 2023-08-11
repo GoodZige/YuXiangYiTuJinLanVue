@@ -1,0 +1,35 @@
+{
+  "name": "big-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:test": "vue-cli-service build --mode development"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "@vue/cli": "^5.0.8",
+    "axios": "^0.26.1",
+    "d3-array": "^3.2.2",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^2.2.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "lodash": "^4.17.19",
+    "vue": "^2.6.10",
+    "vue-router": "3.0.6",
+    "vuex": "^3.6.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

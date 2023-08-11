@@ -1,0 +1,66 @@
+// @import "core";
+@import "myElement";
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  margin-top: 80px;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+// ::-webkit-scrollbar {
+//   width: 5px;
+// }
+// // 设置滚动条的背景色和圆角
+// ::-webkit-scrollbar-thumb {
+//   background-color: #2ed1e0;
+//   border-radius: 8px;
+// }
+// ::-webkit-scrollbar-track {
+//   /*滚动条里面轨道*/
+//   /*box-shadow   : inset 0 0 2px rgba(0, 0, 0, 0.2);*/
+//   border-radius: 4px;
+//   border: 1px solid #11697e;
+// }
+/* 思源雅黑 */
+@font-face {
+  font-family: "SourceHanSansSC";
+  src: url('../assets/fonts/SourceHanSansSC-Normal.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PangMenZhengDao";
+  src: url('../assets/fonts/PangMenZhengDao.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PangMenZhengDao-3";
+  src: url('../assets/fonts/PangMenZhengDao-3.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "basis";
+  src: url('../assets/fonts/汉仪雅酷黑55W.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "number";
+  src: url('../assets/fonts/DIGITAL-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
